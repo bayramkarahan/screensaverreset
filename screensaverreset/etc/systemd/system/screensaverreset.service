@@ -1,0 +1,10 @@
+[Unit]
+Description=screensaverreset
+
+[Service]
+Type=simple
+RemainAfterExit=true
+ExecStart=/usr/bin/screensaverreset
+
+[Install]
+WantedBy=multi-user.target
